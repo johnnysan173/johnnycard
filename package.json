@@ -1,16 +1,16 @@
 {
-  "name": "johnnysan173",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "johnnysan",
+  "version": "1.0.0",
+  "description": "A personal card for Johnny",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "johnnysan": "./bin/card.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnnysan173/johnnycard.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://johnnysan.info",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Johnny <johnnysan173@gmail.com> (http://johnnysan.info)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,10 +38,10 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
+    "url": "https://github.com/johnnysan173/johnnycard/issues"
   },
   "dependencies": {},
   "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "registry": "https://registry.yarnpkg.com"
   }
 }
